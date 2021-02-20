@@ -1,0 +1,120 @@
+
+.back{
+    width: 78%;
+    height: 650px;
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+
+}
+
+.Main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.back {
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/01/ape/fallback/static/GB_GC_GW_backup_._V278268465_.jpg");
+    background-repeat: no-repeat;
+    transition: 5s;
+    
+    animation-name:animate;
+    animation-direction:alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+ 
+
+
+
+  }
+
+
+@keyframes animate{
+    0%{
+        background-image: url("https://images-eu.ssl-images-amazon.com/images/G/02/kindle/journeys/ZmI2ZDQyNTkt/ZmI2ZDQyNTkt-ZTkwMzU1NjEt-w1500._CB662136812_.jpg");
+    }
+    25%{
+        background-image: url("https://images-eu.ssl-images-amazon.com/images/G/02/kindle/journeys/NjczMzc2MmQt/NjczMzc2MmQt-MDUwZmJhODQt-w1500._CB660351645_.jpg");
+    }
+    50%{
+        background-image: url("https://images-eu.ssl-images-amazon.com/images/G/02/AMAZON-FASHION/2020/FASHION/CML/JULY/04_MERCH/MEN/GW_HERO_DESKTOP_1500x600._CB428700676_.jpg");
+    }
+    75%{
+        background-image: url("https://images-eu.ssl-images-amazon.com/images/G/02/AmazonMusic/2020/Marketing/Q4/UK-EN_102020_ClaimChange_60to70_ACQ_GW_Hero_D_1500x600_CV3._CB413229501_.jpg");
+    }
+    100%{
+        background-image: url("https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/IE_COVID19_Prime_FT_XSite_HeroTALL_1500x600._CB435495210_.jpg");
+    }
+
+
+
+
+}
+
+
+
+  .sgn{
+      width: 370px;
+      height: 40px;
+
+
+  }
+
+  #cp{
+
+    height: 150px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  #signinb{
+      background-color: #F3CD71;
+      width: 310px;
+      border: 1px #A88734 solid;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     margin-bottom: 10px;
+
+  }
+
+  #butt{
+      margin-bottom: 8px;
+      
+
+
+  }
+
+  .mainimg{
+     
+margin-top: 32px;
+    width: 280px;
+    height: 280px;
+  }
+
+  #boxp{
+      margin-left: 22px;
+      font-size: 14px;
+      color: #484949
+
+
+  }
+
+  #slink{
+      margin-left: 22px;
+      
+  }

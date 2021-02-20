@@ -1,0 +1,125 @@
+.MainForm {
+    height: 650px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;;
+   background-color: white;
+
+
+
+
+}
+
+input{
+    height: 30px;
+    width: 315px;
+    border-radius: 4px;
+    border: 1px grey solid;
+    
+    display: block;
+    margin-bottom: 20px;
+
+
+}
+
+#lFormBox{
+    width: 350px;
+    height: 400px;
+    border: 1px #DDDDDD solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+
+    margin-right: 108px;
+    margin-bottom: 100px;
+
+
+
+}
+
+.btnform {
+    background-color: #2190CB;
+    width: 315px;
+    height: 35px;
+    border: 3px #2190CB solid;
+    box-shadow: 20px #2190CB solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-weight: 10px;
+    font: "Arial"
+
+}
+h1{
+    margin-right: 100px;
+    font-family: "Arial";
+    color: rgb(17,17,17);
+    font-weight: lighter;
+    margin-bottom: 25px;
+
+
+}
+
+p{
+    margin-right: 92px;
+}
+
+.thelogoimg{
+   height: 35px;
+   width: 103px;
+   margin-bottom: 570px;
+  position: relative;
+  left: 229px;
+}
+
+body{
+    background-color: #F6F6F6;
+}
+
+.btnform:hover {
+    background-color: #1c75a5
+
+
+}
+label{
+    font: "Georgia";
+    font-weight: bolder;
+    font-size: 95%;
+}
+
+#themainh1{
+    margin-right: 200px;
+    margin-top: 12px;
+
+
+
+}
+
+
+#sp{
+    margin-top: 50px;
+
+    color: #82827E;
+}
+
+
+#regb{
+    background-color: #F0F1F3;
+    border: 1px #ADB1B8 solid;
+    color: black;
+    margin-top: 15px;
+
+
+
+}
+#regb:hover{
+    background-color: #e0e0e0
+}

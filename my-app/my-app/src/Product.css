@@ -1,0 +1,39 @@
+.Product{
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    margin-top: 270px;
+    
+ 
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+h2{
+    color: #0f1111;
+    margin: 20px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+
+}
+
+.pim{
+
+    margin: 20px;
+    height: 900px;
+    width: 85%
+}
+
+.thelink{
+    color: rgb(40,135,152);
+    margin-right: 213px;
+    margin-bottom: 10px;
+    
+  
+}
